@@ -1,0 +1,98 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+   
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+   
+  .column img:hover {
+    opacity: 1;
+  }
+   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  
+  .container {
+    position: relative;
+    display: none;
+  }
+   
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+   
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  <p>body {<br>
+    margin:0;<br>
+    direction: rtl;<br>
+    }</p>
+     
+    <p>.navbar {<br>
+      overflow: hidden;<br>
+      background-color: #333;<br>
+      position: fixed;<br>
+      top: 0;<br>
+      width: 100%;<br>
+    }</p>
+     
+    <p>.navbar a {<br>
+      float: right;<br>
+      display: block;<br>
+      color: #f2f2f2;<br>
+      text-align: center;<br>
+      padding: 14px 16px;<br>
+      text-decoration: none;<br>
+      font-size: 17px;<br>
+    }</p>
+     
+    <p>.navbar a:hover {<br>
+      background: #ddd;<br>
+      color: black;<br>
+    }</p>
+     
+    <p>.main {<br>
+      padding: 16px;<br>
+      margin-top: 30px;<br>
+      height: 1500px; /* Used in this example to enable scrolling */<br>
+    }</p>
+
+    .ads-content-125{
+    text-align: center;
+    padding: 20px  10px;
+}
+.ads-content-125 img{
+    margin-bottom: 10px;
+    margin-left: 2px;
+}
+ 
+.ads-content-125{
+  text-align: center;
+  padding: 20px  10px;
+}
+.ads-content-125 img{
+  margin-bottom: 10px;
+  margin-left: 2px;
+}
